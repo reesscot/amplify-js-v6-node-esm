@@ -1,0 +1,15 @@
+{
+  "name": "amplify-js-v6-node-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.0.1-unstable.588b76b.0"
+  }
+}

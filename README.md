@@ -13,4 +13,7 @@ CommonJS modules can always be imported via the default export, for example usin
 import pkg from 'aws-amplify/auth';
 const { signIn } = pkg;
 ```
+
 This would be a regression of the Node ESM module support Amplify JS and UI libraries currently have. Also see: https://github.com/aws-amplify/amplify-ui/issues/3155
+
+The simplest way to fix this issue would be to make sure Node understands which files are ESM compatible by changing their file extension to `mjs`.
